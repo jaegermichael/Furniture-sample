@@ -1,0 +1,6 @@
+{
+  "name": "Topstar Furniture",
+  "description": "Premium modern luxury furniture showroom showcasing bespoke creations for elegant spaces with warm materials, crafted with comfort and precision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
