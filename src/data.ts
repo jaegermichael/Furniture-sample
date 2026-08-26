@@ -1,12 +1,17 @@
 import { Product, Testimonial, ShowcaseItem, GalleryItem } from './types';
 
-// Let's import the actual file paths mapped by the generator.
-// This ensures perfect visual precision with zero broken image placeholders.
-export const HERO_IMAGE = '/src/assets/images/hero_living_room_1782199141409.jpg';
-export const BEDROOM_IMAGE = '/src/assets/images/bedroom_furniture_1782199157696.jpg';
-export const DINING_IMAGE = '/src/assets/images/dining_furniture_1782199174611.jpg';
-export const OFFICE_IMAGE = '/src/assets/images/office_furniture_1782199188165.jpg';
-export const OUTDOOR_IMAGE = '/src/assets/images/outdoor_furniture_1782199205054.jpg';
+import heroLivingRoomImage from './assets/images/hero_living_room_1782199141409.jpg';
+import bedroomFurnitureImage from './assets/images/bedroom_furniture_1782199157696.jpg';
+import diningFurnitureImage from './assets/images/dining_furniture_1782199174611.jpg';
+import officeFurnitureImage from './assets/images/office_furniture_1782199188165.jpg';
+import outdoorFurnitureImage from './assets/images/outdoor_furniture_1782199205054.jpg';
+
+// Import local assets through Vite so production builds emit stable, hashed URLs.
+export const HERO_IMAGE = heroLivingRoomImage;
+export const BEDROOM_IMAGE = bedroomFurnitureImage;
+export const DINING_IMAGE = diningFurnitureImage;
+export const OFFICE_IMAGE = officeFurnitureImage;
+export const OUTDOOR_IMAGE = outdoorFurnitureImage;
 
 export const PRODUCTS_DATA: Product[] = [
   {
